@@ -1,7 +1,13 @@
 {:paths ["src" "resources"]
- :deps {org.clojure/clojure {:mvn/version "1.10.1"}}
+ :deps {org.clojure/clojure {:mvn/version "1.10.1"}
+        tentacles/tentacles {:mvn/version "0.5.1"}}
  :aliases
- {:test {:extra-paths ["test"]
+ {:depstar
+  {:extra-deps
+   {seancorfield/depstar {:mvn/version "1.1.136"}}
+   :ns-default hf.depstar
+   :exec-args {}}
+  :test {:extra-paths ["test"]
          :extra-deps {org.clojure/test.check {:mvn/version "1.0.0"}}}
   :runner
   {:extra-deps {com.cognitect/test-runner
