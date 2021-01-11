@@ -14,3 +14,6 @@
 .cpcache/
 .lsp
 test/
+.DS_Store
+:jar-type
+
