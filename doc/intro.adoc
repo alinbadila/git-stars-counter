@@ -17,7 +17,3 @@ Dezvoltarea unei aplicații care să creeze o listă cu proiectele apreciate (st
     * compilare/build template, pentru test;
     * documentare creare fișier .jar;
     * documentare API GitHub - căutare librării în Clojure care folosesc API GitHub.
-
-
-
-
