@@ -1,5 +1,5 @@
 (ns netdava.git-stars-counter
-  (:require [tentacles/tentacles.repos :as repos])
+  (:require [tentacles/tentacles :as repos])
   (:gen-class))
 
 (defn -main
