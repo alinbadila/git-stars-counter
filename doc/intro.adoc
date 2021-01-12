@@ -17,3 +17,18 @@ Dezvoltarea unei aplicații care să creeze o listă cu proiectele apreciate (st
     * compilare/build template, pentru test;
     * documentare creare fișier .jar;
     * documentare API GitHub - căutare librării în Clojure care folosesc API GitHub.
+
+==== Ce nu știu:
+
+    * utilizarea namesapace-urilor în clojure
+    * diferențele între :require, :use, :import
+    * cum se crează o aplicație având mai multe fișiere cod sursă (utilizare funcții din diverse fișiere)
+    * tratarea listei de argumente din funcția -main (&args)
+    * ce sunt și cum se utilizează GET și POST în http
+    * cum se face conexiunea cu un server, prin intermediul clojure
+    * ce este și care este structura unui json
+    * cum se crează un json și dacă există în clojure funcții pentru asta
+    * librării în clojure care citesc / scriu json
+    * cum se face autentificarea în GitHub folosind API-ul său
+    * cum se citesc proiectele favorite din GitHub
+    * lucrul cu fișiere locale folosind clojure (creare, adăugare, ștergere)
