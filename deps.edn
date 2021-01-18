@@ -1,6 +1,7 @@
 {:paths ["src" "resources"]
  :deps {org.clojure/clojure {:mvn/version "1.10.1"}
-        tentacles/tentacles {:mvn/version "0.5.1"}}
+        irresponsible/tentacles {:mvn/version "0.6.6"}
+        environ/environ {:mvn/version "1.2.0"}}
  :aliases
  {:depstar
   {:extra-deps
